@@ -10,7 +10,7 @@ class loginpage extends StatelessWidget {
           backgroundColor: Colors.orange,
           title: Text("CATTLE MANAGER",
               style: TextStyle(
-                color: Colors.yellow,
+                color: Colors.white,
               )),
         ),
         body: Container(

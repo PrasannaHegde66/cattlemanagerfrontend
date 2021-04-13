@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Cattle Manager",
-      home: Material(child: add_cattle()),
+      home: Material(child: openscreen()),
     );
   }
 }

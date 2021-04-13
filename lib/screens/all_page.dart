@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import './add_cattle.dart';
-import './show_cattle.dart';
+import './searchpage.dart';
 import './events.dart';
 import './reports.dart';
 
@@ -59,7 +59,7 @@ class _all extends State<all> {
                         elevation: 20.0,
                         onPressed: () {
                           Navigator.of(context).push(MaterialPageRoute(
-                              builder: (context) => show_cattle()));
+                              builder: (context) => searchpage()));
                         },
                         color: Colors.white,
                         child: Text("SHOW CATTLE"),
