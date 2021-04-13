@@ -1,5 +1,5 @@
 import 'package:cattlemanager/screens/qrcode.dart';
-
+import './screens/searchpage.dart';
 import './screens/add_cattle.dart';
 import 'package:flutter/material.dart';
 import './screens/open_screen.dart';
